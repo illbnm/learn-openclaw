@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 import { withMermaid } from 'vitepress-plugin-mermaid'
 
 export default withMermaid(defineConfig({
+  base: '/learn-openclaw/',
   title: 'OpenClaw 源码学习',
   description: '从零开始理解 OpenClaw - 个人 AI 助手网关',
   lang: 'zh-CN',
