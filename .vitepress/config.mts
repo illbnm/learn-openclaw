@@ -3,11 +3,12 @@ import { defineConfig } from 'vitepress'
 
 const siteTitle = '从零构建 OpenClaw'
 const siteDescription = '个人 AI 助手网关源码剖析与实战'
-const bookRepository = 'https://github.com/qqzhangyanhua/learn-openclaw'
+const bookRepository = 'https://github.com/illbnm/learn-openclaw'
 const sourceRepository = 'https://github.com/openclaw/openclaw/tree/main'
 
 export default withMermaid(defineConfig({
   srcDir: 'docs',
+  base: '/learn-openclaw/',
   title: siteTitle,
   description: siteDescription,
   lang: 'zh-CN',
